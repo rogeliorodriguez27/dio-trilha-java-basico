@@ -1,18 +1,9 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Desafio de Código: Contador
+Este desafio de código faz parte de um exercício proposto na plataforma Digital Innovation One (DIO) para praticar conceitos de programação em Java. O objetivo do desafio é criar um programa que receba dois parâmetros do usuário e então conte do primeiro parâmetro até o segundo.
+## Estrutura do Projeto
+Contador.java: Arquivo principal que contém o código-fonte do programa.
+ParametrosInvalidosException.java: Classe que define uma exceção personalizada para lidar com parâmetros inválidos.
+##Detalhes Técnicos
+O programa utiliza um objeto Scanner para ler a entrada do usuário a partir do console.
+Implementa uma exceção personalizada (ParametrosInvalidosException) para lidar com casos em que o segundo parâmetro é menor ou igual ao primeiro.
+O programa conta do primeiro parâmetro até o segundo usando um laço for.
